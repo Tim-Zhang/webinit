@@ -237,7 +237,7 @@ $(function(){
 	var template    = Handlebars.compile(dash_source);
 	
 	$('.real-content').each(function(i, elem) {
-		var con = marked.parser(marked.lexer($(this).html()));
+		var con = marked($(this).html());
         im.append(template({content: con, pos: -1000 + i * 1000}));
     });
 	
