@@ -112,6 +112,7 @@ if ("ontouchstart" in document.documentElement) {
 >>>---
 
 - 热身
+- HTML基础
 - 深入调研需求
 </script>
 
@@ -128,34 +129,100 @@ if ("ontouchstart" in document.documentElement) {
 
 >>>---
 	
-    <script>
-	
-	
-    <div></div>
-	<p></p>
-	<span></span>
-	
-	<a></a>
-	<img/>
-
-</script>
-
-<script class="real-content" type="text/template">
-#二、HTML重要标签
-
->>>---
-	
     <!doctype html>
     <html>
     <head>
     <meta charset="utf-8">
-	<title>我是标题</title>
-	</head>
+	 <title>我是标题</title>
+	 </head>
 
     <body>
-	我是内容
+
+      我是内容
+
 	</body>
 	</html>
+
+
+</script>
+
+<script class="real-content" type="text/template">
+#二、HTML重要标签（2）
+
+>>>---
+	
+    <body>
+       <div class="top">
+
+          <p>某人在这说了一段话</p>
+
+          <span id="name">Tim </span><span id="date">2012-08-30</span>
+
+       </div>
+       <div class="center">
+
+          前端需要掌握的知识
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+          
+       
+       </div>
+       <div class="bottom">
+
+          <form method="get" action="http://baidu.com/s">
+             <input type="text" name="wd">
+             <input type="submit" value="百度一下，你就知道哇">
+          </from>
+       
+       </div>
+
+
+    </body>
+    </script>
+    
+<script class="real-content" type="text/template">
+#三、推荐使用XHTML规范
+
+>>>---
+
+- 标签总是闭合或自闭合
+        //不推荐
+        <p>第一段<p>第二段
+        //推荐
+        <p>第一段</p><p>第二段</p>
+- 属性值使用双引号括住
+        //不推荐
+        <div id=test></div>
+        //推荐
+        <div id="test"></div>
+- 元素名称和属性小写 
+        //不推荐
+        <DIV ID="test"></DIV>
+        //推荐
+        <div id="test"></div>
+	
+
+
+</script>
+
+
+<script class="real-content" type="text/template">
+# QA & suggest
+
+>>>---
+
+
+
+</script>
+
+<script class="real-content" type="text/template">
+# thank you
+>>>---
+
+
 
 
 </script>
