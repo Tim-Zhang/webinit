@@ -6,5 +6,5 @@ WEBINIT (WEB初始化)
 Powered by
 ============
 
-- impressjs
+- [impressjs](http://bartaz.github.io/impress.js)
 - markdown
